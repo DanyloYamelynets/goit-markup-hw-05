@@ -105,11 +105,18 @@ p {
 .site-nav a:focus {
   color: var(--accent-hover-color);
 }
-.header-active::after {
+.site-nav a {
+  position: relative;
+}
+.current::after {
+  display: block;
+  content: '';
   position: absolute;
   background-color: var(--accent-color);
-  width: 48px;
+  width: 100%;
   height: 4px;
+  bottom: -1px;
+  left: 0;
 }
 /* contacts */
 .address-list {
