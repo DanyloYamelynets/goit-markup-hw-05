@@ -26,11 +26,19 @@
             Web<span class="logo-primary">Studio</span></a
           >
           <ul class="site-nav list">
-            <li class="item"><a href="./index.html" class="link">Studio</a></li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Portfolio</a>
+            <li class="header-item">
+              <a class="header-active" href="./index.html" class="link"
+                >Studio</a
+              >
             </li>
-            <li class="item"><a href="" class="link">Contacts</a></li>
+            <li class="header-item">
+              <a class="header-active" href="./portfolio.html" class="link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-item">
+              <a class="header-active" href="" class="link">Contacts</a>
+            </li>
           </ul>
           <address class="address">
             <ul class="address-list">
@@ -52,7 +60,7 @@
       <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button primary pointer">
+          <button type="button" class="button primary pointer" data-modal-open>
             Order Service
           </button>
         </div>
@@ -415,5 +423,15 @@
         </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="close-btn" data-modal-close>
+          <svg class="modal-close" width="8" height="8">
+            <use href="./images/close.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
