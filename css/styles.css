@@ -110,7 +110,7 @@ p {
 }
 .current::after {
   display: block;
-  content: '';
+  content: "";
   position: absolute;
   background-color: var(--accent-color);
   width: 100%;
