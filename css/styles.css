@@ -112,6 +112,7 @@ p {
   display: block;
   content: "";
   position: absolute;
+  border-radius: 2px;
   background-color: var(--accent-color);
   width: 100%;
   height: 4px;
@@ -624,4 +625,17 @@ button {
   background-color: var(--border-btn-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+}
+.modal-close {
+  color: var(--primary-text-color);
+}
+.close-btn:hover,
+.close-btn:focus {
+  background-color: var(--accent-hover-color);
+}
+.close-btn:hover .modal-close {
+fill: var(--primary-white-color);
+}
+.close-btn:focus .modal-close {
+fill: var(--primary-white-color);
 }
