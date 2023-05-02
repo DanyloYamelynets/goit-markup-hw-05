@@ -305,7 +305,7 @@ address a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color var(--animation-transition),
+  transition: background-color var(--animation-transition),
     transform var(--animation-transition);
 }
 .social-link:hover,
@@ -395,7 +395,7 @@ address a {
 .portfolio-link {
   text-decoration: none;
   display: block;
-  transition: color var(--animation-transition),
+  transition: box-shadow var(--animation-transition),
     transform var(--animation-transition);
 }
 .portfolio-link:hover,
@@ -474,7 +474,7 @@ address a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: color var(--animation-transition),
+  transition: background-color var(--animation-transition),
     transform var(--animation-transition);
 }
 .footer-link:hover,
@@ -515,7 +515,7 @@ button {
   height: 56px;
   border: none;
   margin: 0 auto;
-  transition: color var(--animation-transition),
+  transition: background-color var(--animation-transition),
     transform var(--animation-transition);
 }
 .button.primary:hover,
@@ -536,7 +536,7 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
   border: 1px solid var(--border-btn-color);
-  transition: color var(--animation-transition),
+  transition: background-color var(--animation-transition),
     transform var(--animation-transition);
 }
 .button.secondary:hover,
