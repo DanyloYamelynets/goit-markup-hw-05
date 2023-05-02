@@ -98,8 +98,7 @@ p {
   text-decoration: none;
   padding-top: 24px;
   padding-bottom: 24px;
-  transition: color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: color var(--animation-transition);
 }
 .site-nav a:hover,
 .site-nav a:focus {
@@ -134,8 +133,7 @@ address a {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
-  transition: color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: color var(--animation-transition);
 }
 .address {
   font-style: normal;
@@ -305,8 +303,7 @@ address a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: background-color var(--animation-transition);
 }
 .social-link:hover,
 .social-link:focus {
@@ -343,7 +340,7 @@ address a {
   justify-content: center;
   color: #8e8f99;
   transition: color var(--animation-transition),
-    transform var(--animation-transition);
+    border-color var(--animation-transition);
 }
 .customer-link:hover,
 .customer-link:focus {
@@ -395,8 +392,7 @@ address a {
 .portfolio-link {
   text-decoration: none;
   display: block;
-  transition: box-shadow var(--animation-transition),
-    transform var(--animation-transition);
+  transition: box-shadow var(--animation-transition);
 }
 .portfolio-link:hover,
 .portfolio-link:focus {
@@ -474,8 +470,7 @@ address a {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: background-color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: background-color var(--animation-transition);
 }
 .footer-link:hover,
 .footer-link:focus {
@@ -515,12 +510,10 @@ button {
   height: 56px;
   border: none;
   margin: 0 auto;
-  transition: background-color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: background-color var(--animation-transition);
 }
 .button.primary:hover,
 .button.primary:focus {
-  color: var(--primary-white-color);
   background-color: var(--accent-hover-color);
 }
 .button.secondary {
@@ -536,8 +529,10 @@ button {
   border-radius: 4px;
   padding: 12px 24px;
   border: 1px solid var(--border-btn-color);
-  transition: background-color var(--animation-transition),
-    transform var(--animation-transition);
+  transition: color var(--animation-transition),
+  background-color var(--animation-transition),
+  box-shadow var(--animation-transition),
+  border var(--animation-transition);
 }
 .button.secondary:hover,
 .button.secondary:focus {
