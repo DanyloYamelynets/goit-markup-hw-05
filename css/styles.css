@@ -607,6 +607,9 @@ button {
   width: 408px;
   min-height: 584px;
   background-color: #fcfcfc;
+  border-radius: 4px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   transition: transform var(--animation-transition);
 }
 .backdrop.is-hidden .modal {
@@ -634,8 +637,8 @@ button {
   background-color: var(--accent-hover-color);
 }
 .close-btn:hover .modal-close {
-fill: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
 .close-btn:focus .modal-close {
-fill: var(--primary-white-color);
+  fill: var(--primary-white-color);
 }
